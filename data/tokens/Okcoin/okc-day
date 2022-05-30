@@ -1,0 +1,835 @@
+{
+  "Background": {
+    "Canvas": {
+      "Base": {
+        "value": "{satoshi.light.000}",
+        "type": "color",
+        "description": "neutral.000"
+      },
+      "Muted": {
+        "value": "{satoshi.light.050}",
+        "type": "color",
+        "description": "neutral.050"
+      },
+      "Faded": {
+        "value": "{satoshi.light.100}",
+        "type": "color",
+        "description": "neutral.100"
+      },
+      "Inverse": {
+        "value": "{satoshi.light.1000}",
+        "type": "color",
+        "description": "neutral.1000"
+      }
+    },
+    "Neutral": {
+      "Default": {
+        "value": "{satoshi.light.900}",
+        "type": "color",
+        "description": "neutral.900"
+      },
+      "Faded": {
+        "value": "{satoshi.light.100}",
+        "type": "color",
+        "description": "neutral.100"
+      },
+      "Midtone": {
+        "value": "{satoshi.light.700}",
+        "type": "color",
+        "description": "neutral.700"
+      },
+      "Contrast": {
+        "value": "{satoshi.light.800}",
+        "type": "color",
+        "description": "neutral.800"
+      },
+      "Disabled": {
+        "value": "{satoshi.alpha-light.100}",
+        "type": "color",
+        "description": "neutral.alpha.100"
+      }
+    },
+    "Accent": {
+      "Default": {
+        "value": "{vitalik.light.600}",
+        "type": "color",
+        "description": "accent.600"
+      },
+      "Faded": {
+        "value": "{vitalik.light.100}",
+        "type": "color",
+        "description": "accent.100"
+      },
+      "Midtone": {
+        "value": "{vitalik.light.700}",
+        "type": "color",
+        "description": "accent.700"
+      },
+      "Contrast": {
+        "value": "{vitalik.light.800}",
+        "type": "color",
+        "description": "accent.800"
+      }
+    },
+    "Highlight": {
+      "Default": {
+        "value": "{bitcoinlady.light.600}",
+        "type": "color",
+        "description": "highlight.600"
+      },
+      "Faded": {
+        "value": "{bitcoinlady.light.100}",
+        "type": "color",
+        "description": "highlight.100"
+      },
+      "Midtone": {
+        "value": "{bitcoinlady.light.700}",
+        "type": "color",
+        "description": "highlight.700"
+      },
+      "Contrast": {
+        "value": "{bitcoinlady.light.800}",
+        "type": "color",
+        "description": "highlight.800"
+      }
+    },
+    "Positive": {
+      "Default": {
+        "value": "{mining.light.600}",
+        "type": "color",
+        "description": "positive.600"
+      },
+      "Faded": {
+        "value": "{mining.light.100}",
+        "type": "color",
+        "description": "positive.100"
+      },
+      "Midtone": {
+        "value": "{mining.light.700}",
+        "type": "color",
+        "description": "positive.700"
+      },
+      "Contrast": {
+        "value": "{mining.light.800}",
+        "type": "color",
+        "description": "positive.800"
+      }
+    },
+    "Critical": {
+      "Default": {
+        "value": "{hal.light.600}",
+        "type": "color",
+        "description": "critical.600"
+      },
+      "Faded": {
+        "value": "{hal.light.100}",
+        "type": "color",
+        "description": "critical.100"
+      },
+      "Midtone": {
+        "value": "{hal.light.700}",
+        "type": "color",
+        "description": "critical.700"
+      },
+      "Contrast": {
+        "value": "{hal.light.800}",
+        "type": "color",
+        "description": "critical.800"
+      }
+    },
+    "Warning": {
+      "Default": {
+        "value": "{halfin.light.200}",
+        "type": "color",
+        "description": "warning.200"
+      },
+      "Faded": {
+        "value": "{halfin.light.100}",
+        "type": "color",
+        "description": "warning.100"
+      },
+      "Midtone": {
+        "value": "{halfin.light.700}",
+        "type": "color",
+        "description": "warning.700"
+      },
+      "Contrast": {
+        "value": "{halfin.light.800}",
+        "type": "color",
+        "description": "warning.800"
+      }
+    },
+    "Elevated": {
+      "Level 1": {
+        "value": "{Background.Canvas.Base}",
+        "type": "color",
+        "description": "background.canvas.base"
+      },
+      "Level 2": {
+        "value": "{Background.Canvas.Base}",
+        "type": "color",
+        "description": "background.canvas.base"
+      },
+      "Level 3": {
+        "value": "{Background.Canvas.Base}",
+        "type": "color",
+        "description": "background.canvas.base"
+      },
+      "Level 4": {
+        "value": "{Background.Canvas.Base}",
+        "type": "color",
+        "description": "background.canvas.base"
+      }
+    },
+    "Alpha": {
+      "Hover": {
+        "value": "{satoshi.alpha-light.050}",
+        "type": "color",
+        "description": "neutral.alpha.050"
+      },
+      "Selected": {
+        "value": "{satoshi.alpha-light.100}",
+        "type": "color",
+        "description": "neutral.alpha.100"
+      },
+      "Scrim": {
+        "value": "{satoshi.alpha-light.100}",
+        "type": "color",
+        "description": "neutral.alpha.100"
+      }
+    }
+  },
+  "Content": {
+    "Neutral": {
+      "Default": {
+        "value": "{satoshi.light.900}",
+        "type": "color",
+        "description": "neutral.900"
+      },
+      "Secondary": {
+        "value": "{satoshi.light.600}",
+        "type": "color",
+        "description": "neutral.600"
+      },
+      "Icon": {
+        "value": "{satoshi.light.400}",
+        "type": "color",
+        "description": "neutral.400"
+      },
+      "onColor": {
+        "value": "{satoshi.light.000}",
+        "type": "color",
+        "description": "neutral.000"
+      },
+      "Disabled": {
+        "value": "{satoshi.alpha-light.100}",
+        "type": "color",
+        "description": "neutral.alpha.100"
+      }
+    },
+    "Accent": {
+      "Default": {
+        "value": "{vitalik.light.600}",
+        "type": "color",
+        "description": "accent.600"
+      },
+      "Secondary": {
+        "value": "{vitalik.light.500}",
+        "type": "color",
+        "description": "accent.500"
+      },
+      "Icon": {
+        "value": "{vitalik.light.400}",
+        "type": "color",
+        "description": "accent.400"
+      },
+      "onColor": {
+        "value": "{vitalik.light.050}",
+        "type": "color",
+        "description": "accent.050"
+      }
+    },
+    "Highlight": {
+      "Default": {
+        "value": "{bitcoinlady.light.600}",
+        "type": "color",
+        "description": "highlight.600"
+      },
+      "Secondary": {
+        "value": "{bitcoinlady.light.500}",
+        "type": "color",
+        "description": "highlight.500"
+      },
+      "Icon": {
+        "value": "{bitcoinlady.light.400}",
+        "type": "color",
+        "description": "highlight.400"
+      },
+      "onColor": {
+        "value": "{bitcoinlady.light.050}",
+        "type": "color",
+        "description": "highlight.050"
+      }
+    },
+    "Positive": {
+      "Default": {
+        "value": "{mining.light.600}",
+        "type": "color",
+        "description": "positive.600"
+      },
+      "Secondary": {
+        "value": "{mining.light.500}",
+        "type": "color",
+        "description": "positive.500"
+      },
+      "Icon": {
+        "value": "{mining.light.400}",
+        "type": "color",
+        "description": "positive.400"
+      },
+      "onColor": {
+        "value": "{mining.light.050}",
+        "type": "color",
+        "description": "positive.050"
+      }
+    },
+    "Critical": {
+      "Default": {
+        "value": "{hal.light.600}",
+        "type": "color",
+        "description": "critical.600"
+      },
+      "Secondary": {
+        "value": "{hal.light.500}",
+        "type": "color",
+        "description": "critical.500"
+      },
+      "Icon": {
+        "value": "{hal.light.400}",
+        "type": "color",
+        "description": "critical.400"
+      },
+      "onColor": {
+        "value": "{hal.light.050}",
+        "type": "color",
+        "description": "critical.050"
+      }
+    },
+    "Warning": {
+      "Default": {
+        "value": "{halfin.light.600}",
+        "type": "color",
+        "description": "warning.600"
+      },
+      "Secondary": {
+        "value": "{halfin.light.500}",
+        "type": "color",
+        "description": "warning.500"
+      },
+      "Icon": {
+        "value": "{halfin.light.400}",
+        "type": "color",
+        "description": "warning.400"
+      },
+      "onColor": {
+        "value": "{halfin.light.900}",
+        "type": "color",
+        "description": "warning.900"
+      }
+    }
+  },
+  "Border": {
+    "Neutral": {
+      "Default": {
+        "value": "{satoshi.light.100}",
+        "type": "color",
+        "description": "neutral.100"
+      },
+      "Interactive": {
+        "value": "{satoshi.light.400}",
+        "type": "color",
+        "description": "neutral.400"
+      },
+      "Selected": {
+        "value": "{satoshi.light.600}",
+        "type": "color",
+        "description": "neutral.600"
+      },
+      "Muted": {
+        "value": "{satoshi.light.050}",
+        "type": "color",
+        "description": "neutral.050"
+      }
+    },
+    "Accent": {
+      "Default": {
+        "value": "{vitalik.light.100}",
+        "type": "color",
+        "description": "accent.100"
+      },
+      "Interactive": {
+        "value": "{vitalik.light.400}",
+        "type": "color",
+        "description": "accent.400"
+      },
+      "Selected": {
+        "value": "{vitalik.light.600}",
+        "type": "color",
+        "description": "accent.600"
+      },
+      "Muted": {
+        "value": "{vitalik.light.050}",
+        "type": "color",
+        "description": "accent.050"
+      }
+    },
+    "Highlight": {
+      "Default": {
+        "value": "{bitcoinlady.light.100}",
+        "type": "color",
+        "description": "highlight.100"
+      },
+      "Interactive": {
+        "value": "{bitcoinlady.light.400}",
+        "type": "color",
+        "description": "highlight.400"
+      },
+      "Selected": {
+        "value": "{bitcoinlady.light.600}",
+        "type": "color",
+        "description": "highlight.600"
+      },
+      "Muted": {
+        "value": "{bitcoinlady.light.050}",
+        "type": "color",
+        "description": "highlight.050"
+      }
+    },
+    "Positive": {
+      "Default": {
+        "value": "{mining.light.100}",
+        "type": "color",
+        "description": "positive.100"
+      },
+      "Interactive": {
+        "value": "{mining.light.400}",
+        "type": "color",
+        "description": "positive.400"
+      },
+      "Selected": {
+        "value": "{mining.light.600}",
+        "type": "color",
+        "description": "positive.600"
+      },
+      "Muted": {
+        "value": "{mining.light.050}",
+        "type": "color",
+        "description": "positive.050"
+      }
+    },
+    "Critical": {
+      "Default": {
+        "value": "{hal.light.100}",
+        "type": "color",
+        "description": "critical.100"
+      },
+      "Interactive": {
+        "value": "{hal.light.400}",
+        "type": "color",
+        "description": "critical.400"
+      },
+      "Selected": {
+        "value": "{hal.light.600}",
+        "type": "color",
+        "description": "critical.600"
+      },
+      "Muted": {
+        "value": "{hal.light.050}",
+        "type": "color",
+        "description": "critical.050"
+      }
+    },
+    "Warning": {
+      "Default": {
+        "value": "{halfin.light.100}",
+        "type": "color",
+        "description": "warning.100"
+      },
+      "Interactive": {
+        "value": "{halfin.light.400}",
+        "type": "color",
+        "description": "warning.400"
+      },
+      "Selected": {
+        "value": "{halfin.light.600}",
+        "type": "color",
+        "description": "warning.600"
+      },
+      "Muted": {
+        "value": "{halfin.light.050}",
+        "type": "color",
+        "description": "warning.050"
+      }
+    }
+  },
+  "Display": {
+    "Large": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.bold}",
+        "lineHeight": "$lineHeights.1",
+        "fontSize": "$fontSize.10",
+        "letterSpacing": "$letterSpacing.1",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Only use once per screen. Reserved for the highest emphasis content such as the amount on a purchase screen."
+    },
+    "Medium": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.bold}",
+        "lineHeight": "$lineHeights.0",
+        "fontSize": "$fontSize.9",
+        "letterSpacing": "$letterSpacing.0",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Use sparingly for high emphasis content."
+    },
+    "Small": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.bold}",
+        "lineHeight": "$lineHeights.2",
+        "fontSize": "$fontSize.8",
+        "letterSpacing": "$letterSpacing.0",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Use sparingly for high emphasis content."
+    }
+  },
+  "Title": {
+    "Large": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.bold}",
+        "lineHeight": "$lineHeights.3",
+        "fontSize": "$fontSize.7",
+        "letterSpacing": "$letterSpacing.2",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Use to describe interface chunks with multiple subunits."
+    },
+    "Medium": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.bold}",
+        "lineHeight": "$lineHeights.4",
+        "fontSize": "$fontSize.6",
+        "letterSpacing": "$letterSpacing.3",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Use to describe interface chunks with multiple subunits."
+    },
+    "Small": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.bold}",
+        "lineHeight": "$lineHeights.5",
+        "fontSize": "$fontSize.5",
+        "letterSpacing": "$letterSpacing.3",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Use to describe interface chunks with no subunits."
+    }
+  },
+  "Label": {
+    "Large": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.semi}",
+        "lineHeight": "$lineHeights.5",
+        "fontSize": "$fontSize.4",
+        "letterSpacing": "$letterSpacing.3",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Use for long-form content on desktop."
+    },
+    "Medium": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.semi}",
+        "lineHeight": "$lineHeights.6",
+        "fontSize": "$fontSize.3",
+        "letterSpacing": "$letterSpacing.3",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Primary label font for mobile. Use sparingly on desktop."
+    },
+    "Small": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.semi}",
+        "lineHeight": "$lineHeights.7",
+        "fontSize": "$fontSize.2",
+        "letterSpacing": "$letterSpacing.3",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Primary label font for desktop. Use sparingly on mobile."
+    },
+    "xSmall": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.semi}",
+        "lineHeight": "$lineHeights.8",
+        "fontSize": "$fontSize.1",
+        "letterSpacing": "$letterSpacing.4",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Use for captions and short-form descriptions."
+    },
+    "xxSmall": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.semi}",
+        "lineHeight": "$lineHeights.9",
+        "fontSize": "$fontSize.0",
+        "letterSpacing": "$letterSpacing.5",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Do not use outside of data visualization."
+    }
+  },
+  "Body": {
+    "Large": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.regular}",
+        "lineHeight": "$lineHeights.5",
+        "fontSize": "$fontSize.4",
+        "letterSpacing": "$letterSpacing.3",
+        "paragraphSpacing": "$paragraphSpacing.4",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Use for long-form content on desktop."
+    },
+    "Medium": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.regular}",
+        "lineHeight": "$lineHeights.6",
+        "fontSize": "$fontSize.3",
+        "letterSpacing": "$letterSpacing.3",
+        "paragraphSpacing": "$paragraphSpacing.3",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Primary body font for mobile. Use sparingly on desktop."
+    },
+    "Small": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.regular}",
+        "lineHeight": "$lineHeights.7",
+        "fontSize": "$fontSize.2",
+        "letterSpacing": "$letterSpacing.4",
+        "paragraphSpacing": "$paragraphSpacing.2",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Primary body font for desktop. Use sparingly on mobile."
+    },
+    "xSmall": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.regular}",
+        "lineHeight": "$lineHeights.8",
+        "fontSize": "$fontSize.1",
+        "letterSpacing": "$letterSpacing.4",
+        "paragraphSpacing": "$paragraphSpacing.1",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Use for captions and short-form descriptions."
+    },
+    "xxSmall": {
+      "value": {
+        "fontFamily": "$fontFamilies.galano",
+        "fontWeight": "{fontWeights.galano.regular}",
+        "lineHeight": "$lineHeights.9",
+        "fontSize": "$fontSize.0",
+        "letterSpacing": "$letterSpacing.5",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography",
+      "description": "Do not use outside of data visualization."
+    }
+  },
+  "Elevation": {
+    "Level 1": {
+      "value": [
+        {
+          "color": "#08001329",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0"
+        },
+        {
+          "color": "#2f056014",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "3",
+          "spread": "1"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "Level 2": {
+      "value": [
+        {
+          "color": "#0800131f",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "6",
+          "blur": "12",
+          "spread": "2"
+        },
+        {
+          "color": "#2f056014",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "Level 3": {
+      "value": [
+        {
+          "color": "#0800131f",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "6",
+          "blur": "12",
+          "spread": "2"
+        },
+        {
+          "color": "#2f056014",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "Level 4": {
+      "value": [
+        {
+          "color": "#08001329",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "8",
+          "blur": "16",
+          "spread": "4"
+        },
+        {
+          "color": "#2f056014",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "3",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow"
+    }
+  },
+  "radius": {
+    "xxSmall": {
+      "value": "{radius.1}",
+      "type": "borderRadius",
+      "description": "Border radius for objects 4px or smaller "
+    },
+    "xSmall": {
+      "value": "{radius.2}",
+      "type": "borderRadius",
+      "description": "Border radius for objects 8px or smaller"
+    },
+    "Small": {
+      "value": "{radius.4}",
+      "type": "borderRadius",
+      "description": "Border radius for objects 16px or smaller"
+    },
+    "Medium": {
+      "value": "{radius.8}",
+      "type": "borderRadius",
+      "description": "Border radius for objects 32px or smaller"
+    },
+    "Large": {
+      "value": "{radius.12}",
+      "type": "borderRadius",
+      "description": "Border radius for objects 48px or smaller"
+    },
+    "xLarge": {
+      "value": "{radius.16}",
+      "type": "borderRadius",
+      "description": "Border radius for objects 48 pixels or larger"
+    },
+    "xxLarge": {
+      "value": "{radius.64}",
+      "type": "borderRadius",
+      "description": "Border radius for massive objects"
+    },
+    "Rounded": {
+      "value": "{radius.full}",
+      "type": "borderRadius",
+      "description": "Border radius for complete rounding on objects of any size"
+    }
+  }
+}

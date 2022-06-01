@@ -1,0 +1,58 @@
+[
+  {
+    "id": "64d9c9864afe41a1c927fa5ffaf966b778b7a208",
+    "name": "Okcoin Day",
+    "selectedTokenSets": {
+      "Okcoin/okc-day": "enabled",
+      "Okcoin/okc-night": "disabled",
+      "Okcoin/okc": "source",
+      "okdl-base": "source",
+      "OKXL/okxl-day": "disabled",
+      "OKXL/okxl-night": "disabled",
+      "OKXL/okxl": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "6885cff3cbd286c8126034c537b294d395b56a70",
+    "name": "Okcoin Night",
+    "selectedTokenSets": {
+      "Okcoin/okc-day": "disabled",
+      "Okcoin/okc-night": "enabled",
+      "Okcoin/okc": "source",
+      "okdl-base": "source",
+      "OKXL/okxl-day": "disabled",
+      "OKXL/okxl-night": "disabled",
+      "OKXL/okxl": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "750c3ad97cb36e2d593d56c751b6c881ccc824cd",
+    "name": "OKXL Day",
+    "selectedTokenSets": {
+      "Okcoin/okc-day": "disabled",
+      "Okcoin/okc-night": "disabled",
+      "Okcoin/okc": "disabled",
+      "okdl-base": "source",
+      "OKXL/okxl-day": "enabled",
+      "OKXL/okxl-night": "disabled",
+      "OKXL/okxl": "source"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "a114cc4141a53e97918b6462b88a8da429ab97c5",
+    "name": "OKXL Night",
+    "selectedTokenSets": {
+      "Okcoin/okc-day": "disabled",
+      "Okcoin/okc-night": "disabled",
+      "Okcoin/okc": "disabled",
+      "okdl-base": "source",
+      "OKXL/okxl-day": "disabled",
+      "OKXL/okxl-night": "enabled",
+      "OKXL/okxl": "source"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
